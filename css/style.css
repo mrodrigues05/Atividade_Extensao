@@ -1,0 +1,49 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Alterado para center para centralizar */
+    gap: 20px;
+}
+
+.technology {
+    display: flex;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.technology img {
+    width: 50%;
+    max-width: 200px;
+
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
